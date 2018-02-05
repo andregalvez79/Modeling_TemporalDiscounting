@@ -16,7 +16,7 @@ function [x,y] = findK(k)
 % By Chabris/Laibson 2008
 % LDR (large delayed reward) // coded as 1
 % SIR (small immediate reward) // coded as 0
-qdat = readtable('LeonLukassen.csv');
+qdat = readtable('pptest.csv');
 
 len = length(qdat.LDR);
 
